@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: #000000;
+    padding-top: 5px;
+    justify-content: flex-end;
+    display: flex;
+    height: 70px;
+    z-index: 10;
+
+}
+
+header span {
+    display: inline-block;
+    margin-right: 15px;
+    background-color: rgba(98, 95, 95, 0.4);
+    padding: 5px;
+    border-radius: 30px;
+    color: white;
+}
+
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 100px 50px;
+    width: 90%;
+    margin: auto;
+    background-color: #000000;
+}
+
+.img-container {
+    display: inline-block;
+    position: relative;
+
+}
+
+.microfono {
+    padding: 3px;
+    position: absolute;
+    color: white;
+    left: 0px;
+    bottom: 3px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
